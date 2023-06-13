@@ -12,7 +12,8 @@ const HomeScreen = () => {
       setProducts(data);
     };
     fetchProducts();
-  }, []);useState, useEffect
+  }, []);
+ 
 
   return (
     <>
